@@ -13,6 +13,8 @@
 		C4C0ABC726C506F5006F7B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABC526C506F5006F7B87 /* Main.storyboard */; };
 		C4C0ABC926C506F6006F7B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABC826C506F6006F7B87 /* Assets.xcassets */; };
 		C4C0ABCC26C506F6006F7B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABCA26C506F6006F7B87 /* LaunchScreen.storyboard */; };
+		C4C0ABDA26C51F49006F7B87 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABD826C51F49006F7B87 /* OrderTableViewCell.xib */; };
+		C4C0ABDB26C51F49006F7B87 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0ABD926C51F49006F7B87 /* OrderTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C4C0ABC826C506F6006F7B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C0ABCB26C506F6006F7B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4C0ABCD26C506F6006F7B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C0ABD826C51F49006F7B87 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		C4C0ABD926C51F49006F7B87 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		C4C0ABBE26C506F5006F7B87 /* Grid photo */ = {
 			isa = PBXGroup;
 			children = (
+				C4C0ABD726C51F0A006F7B87 /* Screen */,
 				C4C0ABBF26C506F5006F7B87 /* AppDelegate.swift */,
 				C4C0ABC126C506F5006F7B87 /* SceneDelegate.swift */,
-				C4C0ABC326C506F5006F7B87 /* ViewController.swift */,
 				C4C0ABC526C506F5006F7B87 /* Main.storyboard */,
 				C4C0ABC826C506F6006F7B87 /* Assets.xcassets */,
 				C4C0ABCA26C506F6006F7B87 /* LaunchScreen.storyboard */,
 				C4C0ABCD26C506F6006F7B87 /* Info.plist */,
 			);
 			path = "Grid photo";
+			sourceTree = "<group>";
+		};
+		C4C0ABD626C51F05006F7B87 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0ABD926C51F49006F7B87 /* OrderTableViewCell.swift */,
+				C4C0ABD826C51F49006F7B87 /* OrderTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C4C0ABD726C51F0A006F7B87 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0ABD626C51F05006F7B87 /* Cell */,
+				C4C0ABC326C506F5006F7B87 /* ViewController.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +148,7 @@
 			files = (
 				C4C0ABCC26C506F6006F7B87 /* LaunchScreen.storyboard in Resources */,
 				C4C0ABC926C506F6006F7B87 /* Assets.xcassets in Resources */,
+				C4C0ABDA26C51F49006F7B87 /* OrderTableViewCell.xib in Resources */,
 				C4C0ABC726C506F5006F7B87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +162,7 @@
 			files = (
 				C4C0ABC426C506F5006F7B87 /* ViewController.swift in Sources */,
 				C4C0ABC026C506F5006F7B87 /* AppDelegate.swift in Sources */,
+				C4C0ABDB26C51F49006F7B87 /* OrderTableViewCell.swift in Sources */,
 				C4C0ABC226C506F5006F7B87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KDX5972VM;
 				INFOPLIST_FILE = "Grid photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SE.Grid-photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KDX5972VM;
 				INFOPLIST_FILE = "Grid photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SE.Grid-photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
