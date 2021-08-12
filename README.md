@@ -3,5 +3,7 @@
 
 - for display five images in grid view 
 - for run application download scoure code 
+- if we need use in table view open class viewController 
+- if we need use for one UIView jsut use OneItemViewController --> Class. GridView 
 
 
