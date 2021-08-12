@@ -8,6 +8,6 @@
 
 
 
-Auther: 
-sobhi imad : sobhiimad97@gmail.com
+Author: 
+sobhi imad: sobhiimad97@gmail.com
 
