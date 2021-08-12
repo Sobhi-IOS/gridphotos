@@ -15,6 +15,8 @@
 		C4C0ABCC26C506F6006F7B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABCA26C506F6006F7B87 /* LaunchScreen.storyboard */; };
 		C4C0ABDA26C51F49006F7B87 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C0ABD826C51F49006F7B87 /* OrderTableViewCell.xib */; };
 		C4C0ABDB26C51F49006F7B87 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0ABD926C51F49006F7B87 /* OrderTableViewCell.swift */; };
+		C4C0ABE126C53A19006F7B87 /* OneItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0ABE026C53A19006F7B87 /* OneItemViewController.swift */; };
+		C4C0ABE426C53E39006F7B87 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0ABE326C53E39006F7B87 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C4C0ABCD26C506F6006F7B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C0ABD826C51F49006F7B87 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
 		C4C0ABD926C51F49006F7B87 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		C4C0ABE026C53A19006F7B87 /* OneItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneItemViewController.swift; sourceTree = "<group>"; };
+		C4C0ABE326C53E39006F7B87 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				C4C0ABC826C506F6006F7B87 /* Assets.xcassets */,
 				C4C0ABCA26C506F6006F7B87 /* LaunchScreen.storyboard */,
 				C4C0ABCD26C506F6006F7B87 /* Info.plist */,
+				C4C0ABE326C53E39006F7B87 /* GridView.swift */,
 			);
 			path = "Grid photo";
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				C4C0ABD626C51F05006F7B87 /* Cell */,
 				C4C0ABC326C506F5006F7B87 /* ViewController.swift */,
+				C4C0ABE026C53A19006F7B87 /* OneItemViewController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				C4C0ABC426C506F5006F7B87 /* ViewController.swift in Sources */,
 				C4C0ABC026C506F5006F7B87 /* AppDelegate.swift in Sources */,
 				C4C0ABDB26C51F49006F7B87 /* OrderTableViewCell.swift in Sources */,
+				C4C0ABE126C53A19006F7B87 /* OneItemViewController.swift in Sources */,
+				C4C0ABE426C53E39006F7B87 /* GridView.swift in Sources */,
 				C4C0ABC226C506F5006F7B87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
